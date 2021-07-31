@@ -1,0 +1,519 @@
+
+[stream setting]
+name = "DIVX MPEG4, IPB"	// configuration name
+desc = "IBBPBBP..., enable header, search range 128"	// configuration description
+compress_mode = 4		// 'MultiMedia.h': EVideoFormat
+mpeg4_mode = 1			// WIS: 0, DIVX: 1, MS: 2
+sequence = 3			// 'MultiMedia.h': ESequenceMode
+gop_mode = 1			// 0: open GOP, 1: closed GOP
+gop_size = 90			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+[stream setting]
+name = "DIVX MPEG4, IP Only"	// configuration name
+desc = "IPP..., enable header, search range 128"	// configuration description
+compress_mode = 4		// 'MultiMedia.h': EVideoFormat
+mpeg4_mode = 1			// WIS: 0, DIVX: 1, MS: 2
+sequence = 2			// 'MultiMedia.h': ESequenceMode
+gop_mode = 1			// 0: open GOP, 1: closed GOP
+gop_size = 30			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+[stream setting]
+name = "Microsoft MPEG4, IP Only"	// configuration name
+desc = ""				// configuration description
+compress_mode = 4		// 'MultiMedia.h': EVideoFormat
+mpeg4_mode = 2			// WIS: 0, DIVX: 1, MS: 2
+sequence = 2			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 30			// maximum count of pictures in a group of picture
+search_range = 64		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 0		// 0: disable, 1: enable
+seq_head_enable = 0		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+[stream setting]
+name = "MPEG2, IPB, DVD"	// configuration name
+desc = ""				// configuration description
+compress_mode = 1		// 'MultiMedia.h': EVideoFormat
+sequence = 3			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 15			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 1		// 0: disable, 1: enable
+
+[stream setting]
+name = "MPEG2, IPB"		// configuration name
+desc = ""				// configuration description
+compress_mode = 1		// 'MultiMedia.h': EVideoFormat
+sequence = 3			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 15			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+[stream setting]
+name = "MPEG2, IPONLY"	// configuration name
+desc = ""				// configuration description
+compress_mode = 1		// 'MultiMedia.h': EVideoFormat
+sequence = 2			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 15			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+[stream setting]
+name = "MPEG1, IPB, VCD"	// configuration name
+desc = ""				// configuration description
+compress_mode = 0		// 'MultiMedia.h': EVideoFormat
+sequence = 3			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 15			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 2		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 1		// 0: disable, 1: enable
+
+[stream setting]
+name = "MPEG1, IPB"		// configuration name
+desc = ""				// configuration description
+compress_mode = 0		// 'MultiMedia.h': EVideoFormat
+sequence = 3			// 'MultiMedia.h': ESequenceMode
+gop_mode = 0			// 0: open GOP, 1: closed GOP
+gop_size = 15			// maximum count of pictures in a group of picture
+search_range = 128		// motion search range, should be 16,32,64 or 128
+gop_head_enable = 1		// 0: disable, 1: enable
+seq_head_enable = 1		// 0: disable, 1: enable
+aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+DVD_compliant = 0		// 0: disable, 1: enable
+
+//[stream setting]
+//name = "Example Stream Setting"
+//desc = "Example Stream Setting"
+//compress_mode = 0		// 'MultiMedia.h': EVideoFormat. 0: MPEG1, 1: MPEG2, 3: H.263, 4: MPEG4, 8: MJPEG
+//sequence = 3			// 'MultiMedia.h': ESequenceMode. 1: I Only, 2: IP Only, 3: IPB
+//gop_mode = 0			// 0: open GOP, 1: closed GOP
+//gop_size = 15			// maximum count of pictures in a group of picture
+//deinterlace_mode = 1	// 0: use one field, 1: deinterlace, 2: interlace coding
+//search_range = 128	// motion search range. Typical value: 16,32,64 or 128. MSFT=64; H.263=32
+//gop_head_enable = 1	// 0: disable, 1: enable. MSFT=0; others=1
+//seq_head_enable = 1	// 0: disable, 1: enable. MSFT=0; others=1
+//aspect_ratio = 1		// 1= 1:1, 2= 4:3, 3= 16:9
+//DVD_compliant = 1		// 0: disable, 1: enable
+
+[framerate setting]
+name = "NTSC 29.97fps"
+desc = "NTSC 29.97fps"
+tv_standard =  NTSC		// NTSC or PAL
+frame_rate = 30000		// fps * 1001
+
+[framerate setting]
+name = "NTSC 15fps"
+desc = "NTSC 15fps"
+tv_standard =  NTSC		// NTSC or PAL
+frame_rate = 15000		// fps * 1001
+
+[framerate setting]
+name = "NTSC 10fps"
+desc = "NTSC 10fps"
+tv_standard =  NTSC		// NTSC or PAL
+frame_rate = 10010		// fps * 1001
+
+[framerate setting]
+name = "NTSC 5fps"
+desc = "NTSC 5fps"
+tv_standard =  NTSC		// NTSC or PAL
+frame_rate = 5005		// fps * 1001
+
+//[framerate setting]
+//name = "NTSC 24fps IVTC"
+//desc = "NTSC 24fps IVTC"
+//tv_standard =  NTSC	// NTSC or PAL
+//frame_rate = 24024	// fps * 1001
+
+[framerate setting]
+name = "PAL 25fps"
+desc = "PAL 25fps"
+tv_standard = PAL		// NTSC or PAL
+frame_rate = 25025		// fps * 1001
+
+[framerate setting]
+name = "PAL 12.5fps"
+desc = "PAL 12.5fps"
+tv_standard = PAL		// NTSC or PAL
+frame_rate = 12512		// fps * 1001
+
+[framerate setting]
+name = "SECAM 25fps"
+desc = "SECAM 25fps"
+tv_standard = SECAM		// NTSC or PAL
+frame_rate = 25025		// fps * 1001
+
+[framerate setting]
+name = "SECAM 12.5fps"
+desc = "SECAM 12.5fps"
+tv_standard = SECAM		// NTSC or PAL
+frame_rate = 12512		// fps * 1001
+
+[framerate setting]
+name = "Sensor 30fps"
+desc = "Sensor 30fps"
+tv_standard = None
+frame_rate = 30030		// fps * 1001
+
+[framerate setting]
+name = "Sensor 25fps"
+desc = "Sensor 25fps"
+tv_standard = None
+frame_rate = 25025		// fps * 1001
+
+[framerate setting]
+name = "Sensor 15fps"
+desc = "Sensor 15fps"
+tv_standard = None
+frame_rate = 15015		// fps * 1001
+
+[framerate setting]
+name = "Sensor 12.5fps"
+desc = "Sensor 12.5fps"
+tv_standard = None
+frame_rate = 12512		// fps * 1001
+
+//[framerate setting]
+//name = "Example Framerate Setting"
+//desc = "Example Framerate Setting"
+//tv_standard = None		// NTSC, PAL or None
+//frame_rate = 30000		// fps * 1001
+
+[resolution setting]
+name = "NTSC SD"		// configuration name
+desc = "NTSC SD"		// configuration description
+tv_standard = NTSC		// NTSC or PAL or None
+width = 720			// output stream resolution: horizontal size
+height = 480			// output stream resolution: vertical size
+
+[resolution setting]
+name = "PAL SD"			// configuration name
+desc = "PAL SD"			// configuration description
+tv_standard = PAL		// NTSC or PAL or None 
+width = 720			// output stream resolution: horizontal size
+height = 576			// output stream resolution: vertical size
+
+[resolution setting]
+name = "SECAM SD"			// configuration name
+desc = "SECAM SD"			// configuration description
+tv_standard = SECAM		// NTSC or PAL or None or SECAM
+width = 720			// output stream resolution: horizontal size
+height = 576			// output stream resolution: vertical size
+
+
+[resolution setting]
+name = "NTSC SIF"		// configuration name
+desc = "NTSC SIF"		// configuration description
+tv_standard = NTSC		// NTSC or PAL or None
+width = 352			// output stream resolution: horizontal size
+height = 240			// output stream resolution: vertical size
+
+[resolution setting]
+name = "NTSC VGA"		// configuration name
+desc = "NTSC VGA"		// configuration description
+tv_standard = NTSC		// NTSC or PAL or None
+width = 640			// output stream resolution: horizontal size
+height = 480			// output stream resolution: vertical size
+
+[resolution setting]
+name = "NTSC QVGA"		// configuration name
+desc = "NTSC QVGA"		// configuration description
+tv_standard = NTSC		// NTSC or PAL or None
+width = 320			// output stream resolution: horizontal size
+height = 240			// output stream resolution: vertical size
+
+[resolution setting]
+name = "PAL CIF"		// configuration name
+desc = "PAL CIF"		// configuration description
+tv_standard = PAL		// NTSC or PAL or None
+width = 352			// output stream resolution: horizontal size
+height = 288			// output stream resolution: vertical size
+
+[resolution setting]
+name = "SECAM CIF"		// configuration name
+desc = "SECAM CIF"		// configuration description
+tv_standard = SECAM		// NTSC or PAL or None or SECAM
+width = 352			// output stream resolution: horizontal size
+height = 288			// output stream resolution: vertical size
+
+[resolution setting]
+name = "VGA"			// configuration name
+desc = "VGA"			// configuration description
+tv_standard = None		// NTSC or PAL or None
+width = 640			// output stream resolution: horizontal size
+height = 480			// output stream resolution: vertical size
+
+[resolution setting]
+name = "QVGA"			// configuration name
+desc = "QVGA"			// configuration description
+tv_standard = None		// NTSC or PAL or None
+width = 320			// output stream resolution: horizontal size
+height = 240			// output stream resolution: vertical size
+
+[resolution setting]
+name = "CIF"			// configuration name
+desc = "CIF"			// configuration description
+tv_standard = None		// NTSC or PAL or None
+width = 352			// output stream resolution: horizontal size
+height = 288			// output stream resolution: vertical size
+
+[resolution setting]
+name = "QCIF"			// configuration name
+desc = "QCIF"			// configuration description
+tv_standard = None		// NTSC or PAL or None
+width = 176			// output stream resolution: horizontal size
+height = 144			// output stream resolution: vertical size
+
+[resolution setting]
+name = "PAL QCIF"			// configuration name
+desc = "PAL QCIF"			// configuration description
+tv_standard = PAL		// NTSC or PAL or None
+width = 176			// output stream resolution: horizontal size
+height = 144			// output stream resolution: vertical size
+
+[resolution setting]
+name = "SECAM QCIF"			// configuration name
+desc = "SECAM QCIF"			// configuration description
+tv_standard = SECAM		// NTSC or PAL or None or SECAM
+width = 176			// output stream resolution: horizontal size
+height = 144			// output stream resolution: vertical size
+
+
+[resolution setting]
+name = "NTSC QCIF"			// configuration name
+desc = "NTSC QCIF"			// configuration description
+tv_standard = NTSC		// NTSC or PAL or None
+width = 176			// output stream resolution: horizontal size
+height = 144			// output stream resolution: vertical size
+
+//[resolution setting]
+//name = "Example Resolution Setting"
+//desc = "Example Resolution Setting"
+//tv_standard = NTSC		// NTSC, PAL or None
+//width = 352			// output stream resolution: horizontal size
+//height = 288			// output stream resolution: vertical size
+//h_sub_window = 1		// Perform horizontal sub-window. 0: Disable; 1: Enable
+//v_sub_window = 1		// Perform Vertical sub-window. 0: Disable; 1: Enable
+//h_sub_offset = 100		// Horizontal starting point to perform subwindow. Valid if h_sub_window = 1.
+//v_sub_offset = 100		// Vertical starting point to perform subwindow. Valid if v_sub_window = 1.
+//h_scale_enb = 0		// Perform horizontal 1/2 scaling. 0: Disable; 1: Enable
+//v_scale_enb = 0		// Perform vertical 1/2 scaling. 0: Disable; 1: Enable
+//sub_sample = 0		// Perform sub sampling. 0: Disable; 1: Enable       
+
+[bitrate setting]
+name = "Constant 6M"		// configuration name
+desc = "Constant 6M"		// configuration description
+target_bitrate = 6000000	// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 60000000
+peak_bitrate = 60000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 4M"		// configuration name
+desc = "Constant 4M"		// configuration description
+target_bitrate = 4000000	// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 40000000
+peak_bitrate = 40000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 2M"		// configuration name
+desc = "Constant 2M"		// configuration description
+target_bitrate = 2000000	// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 20000000
+peak_bitrate = 20000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 1.5M"		// configuration name
+desc = "Constant 1.5M"		// configuration description
+target_bitrate = 1500000	// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 15000000
+peak_bitrate = 15000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 1M"		// configuration name
+desc = "Constant 1M"		// configuration description
+target_bitrate = 1000000	// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 10000000
+peak_bitrate = 10000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 750K"		// configuration name
+desc = "Constant 750K"		// configuration description
+target_bitrate = 750000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 7500000
+peak_bitrate = 7500000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 500K"		// configuration name
+desc = "Constant 500K"		// configuration description
+target_bitrate = 500000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 5000000
+peak_bitrate = 5000000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 384K"		// configuration name
+desc = "Constant 384K"		// configuration description
+target_bitrate = 384000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 3840000
+peak_bitrate = 3840000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 256K"		// configuration name
+desc = "Constant 256K"		// configuration description
+target_bitrate = 256000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 2560000
+peak_bitrate = 2560000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 128K"		// configuration name
+desc = "Constant 128K"		// configuration description
+target_bitrate = 128000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 1280000
+peak_bitrate = 1280000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 56K"		// configuration name
+desc = "Constant 56K"		// configuration description
+target_bitrate = 56000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 560000
+peak_bitrate = 560000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "Constant 28K"		// configuration name
+desc = "Constant 28K"		// configuration description
+target_bitrate = 28000		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+vbv_buffer = 280000
+peak_bitrate = 280000
+converge_speed = 50
+QMin = 2
+QMax = 31
+WindowSize = 60
+Q = 64				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+
+[bitrate setting]
+name = "High Quality"		// configuration name
+desc = "High Quality"		// configuration description
+target_bitrate = 0		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+Q = 0				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+IQ = 2
+BQ = 2
+PQ = 2
+
+[bitrate setting]
+name = "Good Quality"		// configuration name
+desc = "Good Quality"		// configuration description
+target_bitrate = 0		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+Q = 0				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+IQ = 8
+BQ = 8
+PQ = 8
+
+[bitrate setting]
+name = "Low Bitrate"		// configuration name
+desc = "Low Bitrate"		// configuration description
+target_bitrate = 0		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+Q = 0				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+IQ = 31
+BQ = 31
+PQ = 31
+
+[bitrate setting]
+name = "constant Q"		// configuration name
+desc = "constant Q"		// configuration description
+target_bitrate = 0		// target bitrate (bps), a non-zero value enables WIS adaptive bitrate control, 0 means no bit rate control
+Q = 0				// initial quantizer, will devided by 4, for exmaple, 7 represents 1.75
+IQ = 16
+BQ = 16
+PQ = 16
+
+//[bitrate setting]
+//name = "Example Bitrate Setting"
+//desc = "Example Bitrate Setting"
+//target_bitrate = 4000000	// Target bitrate (bps). =0: apply variable bit rate control; >0: apply constant bitrate control
+//peak_bitrate = 6000000		// Highest bitrate allowed. Valid if applying constant bit rate control.
+//vbv_buffer = 1835008		// VBV buffer size
+//converge_speed = 100		// Converging speed of bit rate control process. 0(slowest) ~ 100(fastest)
+//lambda = 100			// Stream quality factor. Smaller: better individual frame quality; Larger: smoother stream 
+//Q = 0				// Initial quantizer, will be devided by 4, for exmaple, 7 represents 1.75
+//IQ = 2				// Fixed quantize scale for I frame. Valid if target_bitrate=0 and Q=0.
+//PQ = 2				// Fixed quantize scale for P frame. Valid if target_bitrate=0 and Q=0.
+//BQ = 2				// Fixed quantize scale for B frame. Valid if target_bitrate=0 and Q=0.

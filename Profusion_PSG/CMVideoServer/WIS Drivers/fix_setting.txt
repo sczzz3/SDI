@@ -1,0 +1,285 @@
+// osd setting
+
+osdcfg.DoOSD = 0
+osdcfg.OSDyc0 = 0
+osdcfg.OSDyc1 = 255
+osdcfg.OSDuc0 = 0
+osdcfg.OSDuc1 = 128
+osdcfg.OSDvc0 = 0
+osdcfg.OSDvc1 = 128
+
+// Threshold
+
+thcfg.THACCoeffSet0 = 0
+thcfg.THACCoeffStartpoint = 1
+thcfg.THedge = 20
+thcfg.THmotion = 30
+thcfg.THblending = 4
+thcfg.THbigedge = 900
+thcfg.THsmalledge = 300
+thcfg.THedgestatistics = 20
+thcfg.THmotionstatistics = 30
+thcfg.THbigedgestatistics = 900
+thcfg.THsmalledgestatistics = 300
+
+// Deinterlace
+
+deintercfg.DeInter_Always_Motion = 0
+deintercfg.DeInter_Always_Blending = 1
+deintercfg.DeInter_Always_Weave = 0
+	
+// IIP setting
+
+iipcfg.Bit_Length = 10
+iipcfg.CCM_R_0 = 0
+iipcfg.CCM_R_1 = 0
+iipcfg.CCM_R_2 = 256
+iipcfg.CCM_R_3 = 0
+iipcfg.CCM_G_0 = 128
+iipcfg.CCM_G_1 = 0
+iipcfg.CCM_G_2 = 0
+iipcfg.CCM_G_3 = 128
+iipcfg.CCM_B_0 = 0
+iipcfg.CCM_B_1 = 256
+iipcfg.CCM_B_2 = 0
+iipcfg.CCM_B_3 = 0
+iipcfg.R_Gain = 288
+iipcfg.G_Gain = 256
+iipcfg.B_Gain = 270
+iipcfg.R_Offset = 0
+iipcfg.G_Offset = 0
+iipcfg.B_Offset = 0
+iipcfg.Gamma_R_P0_C = 28
+iipcfg.Gamma_R_P0_Y = 0
+iipcfg.Gamma_R_P1_C = 32
+iipcfg.Gamma_R_P1_Y = 7
+iipcfg.Gamma_R_P2_C = 28
+iipcfg.Gamma_R_P2_Y = 15
+iipcfg.Gamma_R_P3_C = 28
+iipcfg.Gamma_R_P3_Y = 29
+iipcfg.Gamma_R_P4_C = 26
+iipcfg.Gamma_R_P4_Y = 57
+iipcfg.Gamma_R_P5_C = 27
+iipcfg.Gamma_R_P5_Y = 83
+iipcfg.Gamma_R_P6_C = 17
+iipcfg.Gamma_R_P6_Y = 110
+iipcfg.Gamma_R_P7_C = 12
+iipcfg.Gamma_R_P7_Y = 178
+iipcfg.Gamma_R_P8_C = 8
+iipcfg.Gamma_R_P8_Y = 223
+iipcfg.Gamma_G_P0_C = 28
+iipcfg.Gamma_G_P0_Y = 0
+iipcfg.Gamma_G_P1_C = 32
+iipcfg.Gamma_G_P1_Y = 7
+iipcfg.Gamma_G_P2_C = 28
+iipcfg.Gamma_G_P2_Y = 15
+iipcfg.Gamma_G_P3_C = 28
+iipcfg.Gamma_G_P3_Y = 29
+iipcfg.Gamma_G_P4_C = 26
+iipcfg.Gamma_G_P4_Y = 57
+iipcfg.Gamma_G_P5_C = 27
+iipcfg.Gamma_G_P5_Y = 83
+iipcfg.Gamma_G_P6_C = 17
+iipcfg.Gamma_G_P6_Y = 110
+iipcfg.Gamma_G_P7_C = 12
+iipcfg.Gamma_G_P7_Y = 178
+iipcfg.Gamma_G_P8_C = 8
+iipcfg.Gamma_G_P8_Y = 223
+iipcfg.Gamma_B_P0_C = 28
+iipcfg.Gamma_B_P0_Y = 0
+iipcfg.Gamma_B_P1_C = 32
+iipcfg.Gamma_B_P1_Y = 7
+iipcfg.Gamma_B_P2_C = 28
+iipcfg.Gamma_B_P2_Y = 15
+iipcfg.Gamma_B_P3_C = 28
+iipcfg.Gamma_B_P3_Y = 29
+iipcfg.Gamma_B_P4_C = 26
+iipcfg.Gamma_B_P4_Y = 57
+iipcfg.Gamma_B_P5_C = 27
+iipcfg.Gamma_B_P5_Y = 83
+iipcfg.Gamma_B_P6_C = 17
+iipcfg.Gamma_B_P6_Y = 110
+iipcfg.Gamma_B_P7_C = 12
+iipcfg.Gamma_B_P7_Y = 178
+iipcfg.Gamma_B_P8_C = 8
+iipcfg.Gamma_B_P8_Y = 223
+iipcfg.Black_P = 60
+iipcfg.White_P = 200
+iipcfg.AWB_WIN_L = 40
+iipcfg.AWB_WIN_T = 30
+iipcfg.AWB_WIN_R = 120
+iipcfg.AWB_WIN_B = 90
+iipcfg.SUM_R1 = 0
+iipcfg.SUM_G1 = 0
+iipcfg.SUM_B1 = 0
+iipcfg.AWB_N_VLD_W1 = 0
+iipcfg.SUM_R2 = 0
+iipcfg.SUM_G2 = 0
+iipcfg.SUM_B2 = 0
+iipcfg.AWB_N_VLD_W2 = 0
+iipcfg.SUM_R3 = 0
+iipcfg.SUM_G3 = 0
+iipcfg.SUM_B3 = 0
+iipcfg.AWB_N_VLD_W3 = 0
+iipcfg.SUM_R4 = 0
+iipcfg.SUM_G4 = 0
+iipcfg.SUM_B4 = 0
+iipcfg.AWB_N_VLD_W4 = 0
+iipcfg.SUM_R5 = 0
+iipcfg.SUM_G5 = 0
+iipcfg.SUM_B5 = 0
+iipcfg.AWB_N_VLD_W5 = 0
+iipcfg.AE_WIN_L = 40
+iipcfg.AE_WIN_T = 30
+iipcfg.AE_WIN_R = 120
+iipcfg.AE_WIN_B = 90
+iipcfg.MAX_Y_CTR = 255
+iipcfg.MIN_Y_CTR = 0
+iipcfg.SUM_Y_CTR = 0
+iipcfg.VALID_NUM_CTR = 0
+iipcfg.MAX_Y_BK = 255
+iipcfg.MIN_Y_BK = 0
+iipcfg.SUM_Y_BK = 0
+iipcfg.VALID_NUM_BK = 0
+iipcfg.B_Strgth = 0
+iipcfg.B_Thrshld = 0
+iipcfg.SAT = 64
+iipcfg.HUE = 07
+iipcfg.Y_Gain = 69
+iipcfg.Y_Offset = 8
+iipcfg.LPF_Switch = 0
+iipcfg.LPF_COEF_Y_0 = 4
+iipcfg.LPF_COEF_Y_1 = 15
+iipcfg.LPF_COEF_Y_2 = 26
+iipcfg.LPF_COEF_Cr_0 = 4
+iipcfg.LPF_COEF_Cr_1 = 15
+iipcfg.LPF_COEF_Cr_2 = 26
+iipcfg.LPF_COEF_Cb_0 = 4
+iipcfg.LPF_COEF_Cb_1 = 15
+iipcfg.LPF_COEF_Cb_2 = 26
+
+// else setting
+
+elsecfg.clockrate = 96
+elsecfg.DRAM = 2
+elsecfg.HPIBufferCapacity = 7
+
+elsecfg.ivtc_holding_time = 1
+//the name of ivtc_holding_time is meaningless
+//it is actually a reserved field in elsecfg
+//elsecfg.ivtc_holding_time bitplane is like
+//bit[15:1] Reserved
+//bit[0]    AVSynch information output enable
+//          1=enabled, 0=disabled
+
+elsecfg.v_sync_bitplane = 61536
+//v_sync_bitplane is for Vertical Synch setting
+//For camera board, please set it to zero
+//For capture board, its bitplane is like
+//bit[15]=VSYNC_ENABLE_BIT, 1=enabled, 0=disabled
+//bit[14]=FID_DET_ENABLE_BIT, 1=enabled, 0=disabled
+//bit[13]=REPORT_ENABLE_BIT, 1=enabled, 0=disabled
+//bit[12]=EXEC_ENABLE_BIT, 1=enabled, 0=disabled
+//bit[11]=GPIO_DET_ENABLE_BIT, 1=enabled, 0=disabled
+//bit[10:6]=PERIOD_TIME_SELECT
+//bit[5:0]=GPIO_PIN_SELECT
+
+// motion detection settings
+SAD_threshold_region1   = 32767;
+MV_threshold_region1    = 32767;
+sensitivity_region1     = 32767;
+
+SAD_threshold_region2   = 32767;
+MV_threshold_region2    = 32767;
+sensitivity_region2     = 32767;
+
+SAD_threshold_region3   = 32767;
+MV_threshold_region3    = 32767;
+sensitivity_region3     = 32767;
+
+SAD_threshold_region4   = 32767;
+MV_threshold_region4    = 32767;
+sensitivity_region4     = 32767;
+
+macroblock_map_0_19      = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_20_39     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_40_59     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_60_79     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_80_99     = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_100_119   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_120_139   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_140_159   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_160_179   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_180_199   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_200_219   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_220_239   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_240_259   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_260_279   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_280_299   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_300_319   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_320_339   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_340_359   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_360_379   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_380_399   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_400_419   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_420_439   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_440_459   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_460_479   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_480_499   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_500_519   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_520_539   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_540_559   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_560_579   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_580_599   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_600_619   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_620_639   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_640_659   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_660_679   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_680_699   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_700_719   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_720_739   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_740_759   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_760_779   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_780_799   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_800_819   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_820_839   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_840_859   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_860_879   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_880_899   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_900_919   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_920_939   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_940_959   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_960_979   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_980_999   = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1000_1019 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1020_1039 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1040_1059 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1060_1079 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1080_1199 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1100_1119 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1120_1139 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1140_1159 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1160_1179 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1180_1199 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1200_1219 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1220_1239 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1240_1259 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1260_1279 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1280_1299 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1300_1319 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1320_1339 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1340_1359 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1360_1379 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1380_1399 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1400_1419 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1420_1439 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1440_1459 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1460_1479 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1480_1499 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1500_1519 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1520_1539 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1540_1559 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1560_1579 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1580_1599 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+macroblock_map_1600_1619 = 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0;
+

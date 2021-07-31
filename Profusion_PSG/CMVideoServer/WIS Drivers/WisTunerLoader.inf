@@ -1,0 +1,56 @@
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+provider=%WISTECH%
+DriverVer=08/05/2002
+
+[Manufacturer]
+%WISTECH%=WisTech
+
+[WisTech]
+%USB\VID_0EB1&PID_6668&Rev_0001.DeviceDesc%=WisTunerLoader.Dev, USB\Vid_0eb1&Pid_6668
+
+[PreCopySection]
+HKR,,NoSetupUI,,1
+
+[DestinationDirs]
+WisTunerLoader.Files.Ext = 10,System32\Drivers
+WisTunerLoader.Files.Inf = 10,INF
+
+[WisTunerLoader.Dev]
+CopyFiles=WisTunerLoader.Files.Ext, WisTunerLoader.Files.Inf
+AddReg=WisTunerLoader.AddReg
+
+[WisTunerLoader.Dev.NT]
+CopyFiles=WisTunerLoader.Files.Ext, WisTunerLoader.Files.Inf
+AddReg=WisTunerLoader.AddReg
+
+[WisTunerLoader.Dev.NT.Services]
+Addservice = WisTunerLoader, 0x00000002, WisTunerLoader.AddService
+
+[WisTunerLoader.AddService]
+DisplayName    = %WisTunerLoader.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 2                  ; SERVICE_AUTO_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\WisTunerLoader.sys
+LoadOrderGroup = Base
+
+[WisTunerLoader.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,WisTunerLoader.sys
+
+[WisTunerLoader.Files.Ext]
+WisTunerLoader.sys
+
+[WisTunerLoader.Files.Inf]
+WisTunerLoader.Inf
+
+;---------------------------------------------------------------;
+
+[Strings]
+WISTECH="Wis Technologies Inc."
+USB\VID_0EB1&PID_6668&Rev_0001.DeviceDesc="WISCHIP TV Tuner EZ-LOADER"
+
+WisTunerLoader.SvcDesc="WIS EZ-USB FX2 FIRMWARE LOADER (WisTunerLoader.sys)"
