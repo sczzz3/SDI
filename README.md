@@ -7,7 +7,7 @@ An implementation for the paper: ["Annotation of Sleep Depth Index with Scalable
 - Install the dependencies by:
 
 ```bash
-conda create -n sleep python=3.11
+conda create -n sdi python=3.11
 pip install -r requirements.txt
 ```
 
