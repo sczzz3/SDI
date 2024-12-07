@@ -1,7 +1,7 @@
 
 # Annotation of sleep depth index (SDI) by deep learning
 An implementation for the paper: ["Annotation of Sleep Depth Index with Scalable Deep Learning Yields Novel Digital Biomarkers for Sleep Health"](https://arxiv.org/abs/2407.04753).
-
+A web app for annotating the Sleep Depth Index is available at [here](http://183.162.233.24:10024/PSG_Sleep_depth) (with support for EDF-format input). 
 
 # Requirements
 - Install the dependencies by:
@@ -23,8 +23,6 @@ After training, you can try the inference by running
 python infer.py --data_file YOUR_DATA(EDF) --output_file NAMED_FILE.csv 
 ```
 The resulting CSV file represents data where each row corresponds to a 30-second interval. The first column contains the Sleep Depth Index, while the second column indicates the classification of REM sleep.
-
-A web application for annotating Sleep Depth Index is now available [here](http://183.162.233.24:10024/PSG_Sleep_depth). Currently, it supports only CSV files transformed from raw signal data. We are actively working to enable support for loading .edf files.
 
 # Citation
 
