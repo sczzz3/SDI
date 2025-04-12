@@ -1,6 +1,6 @@
 
 # Annotation of sleep depth index (SDI) by deep learning
-An implementation for the paper: ["Continuous Sleep Depth Index Annotation with Deep Learning Yields Novel Digital Biomarkers for Sleep Health"](https://arxiv.org/abs/2407.04753).
+An implementation for the paper: ["Continuous Sleep Depth Index Annotation with Deep Learning Yields Novel Digital Biomarkers for Sleep Health"](https://www.nature.com/articles/s41746-025-01607-0).
 A web app for annotating the Sleep Depth Index is available at [here](http://183.162.233.24:10024/PSG_Sleep_depth) (with support for EDF-format input). 
 
 # Requirements
@@ -26,7 +26,7 @@ The resulting CSV file represents data where each row corresponds to a 30-second
 
 # Citation
 
-If you find the idea useful or use this code in your own work, please cite our paper
+If you find the idea useful or use this code in your work, please cite our paper
 ```bibtex
 @article{zhou2024annotation,
   title={Annotation of Sleep Depth Index with Scalable Deep Learning Yields Novel Digital Biomarkers for Sleep Health},
