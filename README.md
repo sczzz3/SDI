@@ -28,10 +28,14 @@ The resulting CSV file represents data where each row corresponds to a 30-second
 
 If you find the idea useful or use this code in your work, please cite our paper
 ```bibtex
-@article{zhou2024annotation,
-  title={Annotation of Sleep Depth Index with Scalable Deep Learning Yields Novel Digital Biomarkers for Sleep Health},
-  author={Zhou, Songchi and Song, Ge and Sun, Haoqi and Leng, Yue and Westover, M Brandon and Hong, Shenda},
-  journal={arXiv preprint arXiv:2407.04753},
-  year={2024}
+@article{zhou2025continuous,
+  title={Continuous sleep depth index annotation with deep learning yields novel digital biomarkers for sleep health},
+  author={Zhou, Songchi and Song, Ge and Sun, Haoqi and Zhang, Deyun and Leng, Yue and Westover, M Brandon and Hong, Shenda},
+  journal={npj Digital Medicine},
+  volume={8},
+  number={1},
+  pages={203},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
 }
 ```
